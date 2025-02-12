@@ -33,7 +33,7 @@ const SignUp = () => {
     setErrors(newErrors)
 
     if (!newErrors.name && !newErrors.email && !newErrors.password) {
-      router.push("/(tabs)/home-page")
+      router.push("/(tabs)/home")
       console.log("Sign Up Successful!")
     }
   }

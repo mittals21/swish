@@ -15,6 +15,8 @@ const SignIn = () => {
   }
 
   const handleLogin = () => {
+    router.push("/(tabs)/home")
+
     const newErrors = { email: "", password: "" }
 
     if (!inputData.email) newErrors.email = "Email is required"
@@ -28,7 +30,7 @@ const SignIn = () => {
     setErrors(newErrors)
 
     if (!newErrors.email && !newErrors.password) {
-      router.push("/(tabs)/home-page")
+      router.push("/(tabs)/home")
       console.log("Login Successful!")
     }
   }
@@ -60,7 +62,10 @@ const SignIn = () => {
             errorMessage={errors.password}
           />
 
-          <Text className="text-secondary w-full text-right px-6" onPress={() => router.push("/(auth)/forgot-password")}>
+          <Text
+            className="text-secondary w-full text-right px-6"
+            onPress={() => router.push("/(auth)/forgot-password")}
+          >
             Forgot Password?
           </Text>
 
