@@ -16,17 +16,17 @@ const Home = () => {
           className="w-[250px] h-[250px] rounded-full "
           resizeMode="contain"
         />
-        <Text className="text-black text-5xl text-center font-bold mt-3">
+        <Text className="text-black text-5xl text-center font-extrabold italic py-2 mt-3">
           Swish
         </Text>
-        <Text className="text-black text-2xl text-center font-semibold italic">
+        <Text className="text-black text-2xl text-center font-msbi ">
           Effortless Style, Everyday
         </Text>
         <TouchableOpacity
           onPress={() => router.push("/(auth)/sign-in")}
           className="py-4 px-10 rounded-2xl w-[80%] mt-10 bg-secondary"
         >
-          <Text className="text-white font-medium text-xl text-center">
+          <Text className="text-white font-mb text-xl text-center">
             Get Started
           </Text>
         </TouchableOpacity>

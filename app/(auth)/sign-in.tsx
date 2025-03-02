@@ -41,7 +41,7 @@ const SignIn = () => {
         contentContainerStyle={{ height: "100%" }}
         contentContainerClassName="justify-between py-44"
       >
-        <Text className="text-black font-bold text-5xl w-full px-6">
+        <Text className="text-black font-mb py-1 text-5xl w-full px-6">
           Login
         </Text>
 
@@ -63,7 +63,7 @@ const SignIn = () => {
           />
 
           <Text
-            className="text-black w-full text-right px-6"
+            className="text-black w-full text-right font-msb px-6"
             onPress={() => router.push("/(auth)/forgot-password")}
           >
             Forgot Password?
@@ -73,7 +73,7 @@ const SignIn = () => {
             onPress={handleLogin}
             className="py-4 px-10 rounded-full w-[90%] mt-10 bg-secondary"
           >
-            <Text className="text-white font-medium text-xl text-center">
+            <Text className="text-white font-mb text-xl text-center">
               LOGIN
             </Text>
           </TouchableOpacity>
@@ -83,7 +83,7 @@ const SignIn = () => {
           className="w-full px-6"
           onPress={() => router.push("/(auth)/sign-up")}
         >
-          <Text className="text-center text-black text-lg">
+          <Text className="text-center text-black font-msb text-lg">
             Don't have an account? <Text className="text-red-500">Sign Up</Text>
           </Text>
         </TouchableOpacity>

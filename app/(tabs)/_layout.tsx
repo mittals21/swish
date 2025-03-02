@@ -20,12 +20,17 @@ const TabsLayout = () => {
           height: 70,
           paddingTop: 5,
         },
+        tabBarLabelStyle: {
+          fontFamily: "msb", // Change this to your actual font name from tailwind.config.js
+          fontSize: 10, // Adjust font size if needed
+        },
       }}
     >
       <Tabs.Screen
         name="home"
         options={{
           title: "Home",
+
           headerShown: false,
           tabBarIcon: ({
             color,

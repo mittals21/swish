@@ -28,10 +28,10 @@ const InputField = ({
           secureTextEntry={inputType === "password"}
           placeholder={placeholder}
           placeholderTextColor="gray"
-          className="outline-none placeholder:text-gray-400 text-lg"
+          className="outline-none placeholder:text-gray-400 font-m text-lg"
         />
       </View>
-      {errorMessage && <Text className="text-red-500 text-xs mt-1 px-2">{errorMessage}</Text>}
+      {errorMessage && <Text className="text-red-500 text-xs font-msb mt-1 px-2">{errorMessage}</Text>}
     </View>
   )
 }
