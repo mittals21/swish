@@ -1,7 +1,7 @@
 import { Text, ScrollView, Image, TouchableOpacity } from "react-native"
 import React from "react"
 import { SafeAreaView } from "react-native-safe-area-context"
-import logo from "../assets/images/logo.jpeg"
+import logo from "../assets/images/logo_background_changed.jpeg"
 import { router } from "expo-router"
 
 const Home = () => {

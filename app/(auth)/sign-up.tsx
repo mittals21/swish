@@ -44,7 +44,7 @@ const SignUp = () => {
         contentContainerStyle={{ height: "100%" }}
         contentContainerClassName="justify-between py-44"
       >
-        <Text className="text-secondary font-bold text-5xl w-full px-6">
+        <Text className="text-black font-bold text-5xl w-full px-6">
           Sign Up
         </Text>
 
@@ -86,7 +86,7 @@ const SignUp = () => {
           className="w-full px-6"
           onPress={() => router.push("/(auth)/sign-in")}
         >
-          <Text className="text-center text-secondary text-lg">
+          <Text className="text-center text-black text-lg">
             Already have an account? <Text className="text-red-500">Login</Text>
           </Text>
         </TouchableOpacity>

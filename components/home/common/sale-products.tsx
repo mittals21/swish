@@ -1,17 +1,15 @@
-import { View, Text, Image, ScrollView } from "react-native"
+import { View, Text, ScrollView, Image } from "react-native"
 import React from "react"
-import { products } from "@/assets/dummyData/products"
 import Ionicons from "@expo/vector-icons/Ionicons"
+import { products } from "@/assets/dummyData/products"
 
-const NewProducts = () => {
+const SaleProducts = () => {
   return (
     <View className="mt-10">
       <View className="flex-row items-center justify-between px-6">
         <View className="">
-          <Text className="text-4xl font-bold text-black">New</Text>
-          <Text className="text-black text-base ">
-            You've never seen it before!
-          </Text>
+          <Text className="text-4xl font-bold text-black">Sale</Text>
+          <Text className="text-black text-base ">Super summer sale</Text>
         </View>
         <Text className="text-base">View all</Text>
       </View>
@@ -49,4 +47,4 @@ const NewProducts = () => {
   )
 }
 
-export default NewProducts
+export default SaleProducts

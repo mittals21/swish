@@ -30,7 +30,7 @@ const ForgotPassword = () => {
         contentContainerStyle={{ height: "100%" }}
         contentContainerClassName="py-44"
       >
-        <Text className="text-secondary font-bold text-5xl w-full px-6 mb-20">
+        <Text className="text-black font-bold text-5xl w-full px-6 mb-20">
           Forgot Password
         </Text>
 

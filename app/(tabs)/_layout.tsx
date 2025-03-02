@@ -1,4 +1,4 @@
-import { View, Text } from "react-native"
+import { View } from "react-native"
 import React from "react"
 import { Tabs } from "expo-router"
 import Entypo from "@expo/vector-icons/Entypo"
@@ -11,12 +11,12 @@ const TabsLayout = () => {
     <Tabs
       screenOptions={{
         tabBarShowLabel: true,
-        tabBarActiveTintColor: "#6F4E37",
+        tabBarActiveTintColor: "#DB3022",
         tabBarInactiveTintColor: "#9B9B9B",
         tabBarStyle: {
-          backgroundColor: "#eae3d2",
+          backgroundColor: "#FFFFFF",
           borderTopWidth: 0,
-          borderTopColor: "#eae3d2",
+          borderTopColor: "#FFFFFF",
           height: 70,
           paddingTop: 5,
         },
